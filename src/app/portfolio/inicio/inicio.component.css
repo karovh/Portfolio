@@ -1,0 +1,32 @@
+.inicio {
+    height: 490px;
+    width: 100%;
+    background: #d7c28d;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.inicio h1 {
+    font-size: 400%;
+    color: #28272a;
+    margin: 0;
+}
+
+.inicio h2 {
+    font-size: 180%;
+    margin: 0;
+    color: #28272a;
+    
+}
+
+.header-icon {
+    height: 150px;
+    width: 150px;
+    color: #28272a;
+}
