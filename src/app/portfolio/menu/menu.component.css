@@ -5,6 +5,9 @@
     padding: 8px 16px;
     background: #28272a;
     height: 56px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 
 .nav {
@@ -12,6 +15,7 @@
     flex-direction: row;
     justify-content: end;
     width: 100%;
+    padding-right: 20px;
 }
 
 .mat-button {
@@ -25,8 +29,8 @@
     padding: 0 16px;
     color: #fff;
     background: transparent;
-    font-family: Roboto, Helvetica Neue, sans-serif;
-    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
     font-weight: 500;
 }
 

@@ -1,7 +1,7 @@
 .inicio {
     height: 490px;
     width: 100%;
-    background: #d7c28d;
+    background: #E9D5A1;
     display: flex;
     align-items: center;
 }
@@ -16,12 +16,16 @@
     font-size: 400%;
     color: #28272a;
     margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .inicio h2 {
-    font-size: 180%;
+    font-size: 30px;
     margin: 0;
     color: #28272a;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500   
     
 }
 
