@@ -1,36 +1,61 @@
 .inicio {
-    height: 490px;
-    width: 100%;
-    background: #E9D5A1;
-    display: flex;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #e9d5a1;
+  display: flex;
+  align-items: center;  
 }
 
 .titulo {
-    width: 100%;
-    text-align: center;
-    margin: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
 }
 
 .inicio h1 {
-    font-size: 400%;
-    color: #28272a;
-    margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-size: 400%;
+  color: #151513;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .inicio h2 {
-    font-size: 30px;
-    margin: 0;
-    color: #28272a;
-    margin-top: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500   
-    
+  font-size: 30px;
+  margin: auto;
+  color: #28272a;
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+
+  white-space: nowrap;
+  /* los espacios en blanco no rompen la línea */
+  width: 20ch;
+  /* el ancho será el número de caracteres que tiene nuestra línea */
+  animation: escribiendo 2s steps(20);
+  overflow: hidden;
+  text-align: center;
 }
 
 .header-icon {
-    height: 150px;
-    width: 150px;
-    color: #28272a;
+  height: 150px;
+  width: 150px;
+  color: #28272a;
 }
+
+.cursor {
+  animation: 0.6s parpadeo-cursor infinite;
+}
+
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes parpadeo-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+

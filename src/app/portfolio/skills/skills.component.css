@@ -1,0 +1,70 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #151513;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 30px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.icons {
+  padding: 50px 0 150px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.icon p {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.icon {
+  width: 100px;
+  height: 90px;
+  background-color: rgba(248, 245, 244, 0.05);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+#angular-icon:hover {
+  box-shadow: 0 0 10px #e23237;
+  transition: all 300ms;
+}
+#typescript-icon:hover {
+  box-shadow: 0 0 10px #007acc;
+  transition: all 300ms;
+}
+#html-icon:hover {
+  box-shadow: 0 0 10px #E65227;
+  transition: all 300ms;
+}
+#css-icon:hover {
+  box-shadow: 0 0 10px #2965F1;
+  transition: all 300ms;
+}
+#javascript-icon:hover {
+  box-shadow: 0 0 10px #F7DF1E;
+  transition: all 300ms;
+}
+#java-icon:hover {
+  box-shadow: 0 0 10px #E76F00;
+  transition: all 300ms;
+}
+#mysql-icon:hover {
+  box-shadow: 0 0 10px #00758F;
+  transition: all 300ms;
+}
