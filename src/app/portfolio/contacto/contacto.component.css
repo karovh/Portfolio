@@ -1,10 +1,10 @@
 .contacto {
-  padding: 30px;
   background-color: #e9d5a1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 45px;
 }
 .todo{
     display: flex;
@@ -115,4 +115,14 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.whatsapp{
+  z-index: 2;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.whatsapp a{
+  float: right;
 }
