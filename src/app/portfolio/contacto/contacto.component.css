@@ -99,13 +99,13 @@ textarea {
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
 }
-button {
+.botonenviar {
   height: 45px;
   background-color: #e9d5a1;
   border-color: #e9d5a1;
   border-style: solid;
   border-radius: 10px;
-  width: 200px;
+  width: 110px;
   cursor: pointer;
   font-family: "Courier New", Courier, monospace;
   margin: 0;

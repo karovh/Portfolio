@@ -4,47 +4,43 @@
   <div class="todo">
     <div class="informacion">
       <div class="form">
-        <form
-          method="post"
-          action="https://formsubmit.co/carolinavillamilh@gmail.com"
-        >
+        <form id="form" #formContact="ngForm" (ngSubmit)="onSubmit(formContact.value)">
           <p>
-            <label for="nombre" class="colocar_nombre">Nombre </label>
+            <label for="nombre" class="colocar_nombre">Nombre</label>
             <input
               type="text"
-              name="introducir_nombre"
-              id="nombre"
+              name="name"             
               required="obligatorio"
               placeholder="Escribe tu nombre"
+              ngModel
             />
           </p>
 
           <p>
-            <label for="email" class="colocar_email">Email </label>
+            <label for="email" class="colocar_email">Email</label>
             <input
               type="email"
-              name="introducir_email"
-              id="email"
+              name="email"              
               required="obligatorio"
               placeholder="Escribe tu Email"
+              ngModel
             />
           </p>
 
           <p>
             <label for="mensaje" class="colocar_mensaje">Mensaje </label>
             <textarea
-              name="introducir_mensaje"
-              class="texto_mensaje"
-              id="mensaje"
+              name="message"
+              class="mensaje"             
               required="obligatorio"
-              placeholder="Deja aquí tu comentario..."
+              placeholder="Deja aquí tu mensaje..."
+              ngModel
             ></textarea>
           </p>
 
-          <button type="submit">
-            <p>Enviar</p>
-          </button>
+          <input class="botonenviar" type="submit" id="button" value="Enviar" >
         </form>
+                
       </div>
     </div>
 
@@ -78,19 +74,19 @@
           height="40px"
         />
         <p>Medellin, Colombia</p>
-      </div>      
+      </div>
     </div>
   </div>
   <div class="whatsapp">
-        <a
-          href="https://wa.me/573134015350/?text=Hola%20Carolina,%20me%20gustaría%20contactarte%20para%20trabajar%20juntos..."
-          target="_blank"
-        >
-          <img
-            src="./../../../assets/icon/whatsapp-icon.svg"
-            width="50"
-            height="50"
-          />
-        </a>
-      </div>
+    <a
+      href="https://wa.me/573134015350/?text=Hola%20Carolina,%20me%20gustaría%20contactarte%20para%20trabajar%20juntos..."
+      target="_blank"
+    >
+      <img
+        src="./../../../assets/icon/whatsapp-icon.svg"
+        width="50"
+        height="50"
+      />
+    </a>
+  </div>
 </div>

@@ -9,6 +9,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FooterComponent } from './footer/footer.component';
 import { MaterialModule } from './material/material.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -29,7 +30,9 @@ import { MaterialModule } from './material/material.module';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
+
   ]
 })
 export class PortfolioModule { }
